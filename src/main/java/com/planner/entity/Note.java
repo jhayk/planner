@@ -2,7 +2,17 @@ package com.planner.entity;
 
 public class Note {
 
+    private String id;
+
     private String text;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 
     public String getText() {
         return text;
